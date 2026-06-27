@@ -156,7 +156,7 @@ export function HeroSection() {
           zIndex: 0,
         }}
       >
-        <source src="/4k.mp4" type="video/mp4" />
+        <source src="https://crkkimya.com.tr/4k.mp4" type="video/mp4" />
       </video>
 
       <div

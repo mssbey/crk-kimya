@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "title": "CRK Kimya | Kimyasal Hammaddeler ve Endüstriyel Çözümler",
+    "description": "CRK Kimya, yüksek kaliteli kimyasal hammaddeler, petrokimya ürünleri ve endüstriyel çözümler ile üretim süreçlerinize değer katan güvenilir global kimya tedarikçisidir.",
+    "keywords": "kimyasal hammadde, endüstriyel kimyasal, petrokimya, su arıtma kimyasalı, kimya tedarikçisi, CRK Kimya",
+    "ogTitle": "CRK Kimya | Kimyanın Gücünü Endüstriye Taşıyoruz",
+    "ogDescription": "20+ yıllık tecrübe, 500+ mutlu müşteri, 1000+ ürün çeşidi. CRK Kimya ile güvenilir kimyasal tedarik."
+  },
+  "hero": {
+    "chip": "Temizlik & Endüstriyel Kimya Uzmanı",
+    "heading1": "Temizlik, Hijyen ve",
+    "heading2": "Teknik Kimya Çözümleri",
+    "subtitle": "CRK Kimya; endüstriyel temizlik, kişisel hijyen, teknik bakım, gıda hijyeni ve havuz kimyasalları alanlarında 300'den fazla ürünlük kapsamlı seriyle işletmenizin yanındadır....",
+    "btn1": "Ürün Grupları",
+    "btn2": "İletişime Geç",
+    "statItems": [
+      {
+        "value": "20+",
+        "label": "Yıllık Tecrübe"
+      },
+      {
+        "value": "300+",
+        "label": "Ürün Çeşidi"
+      }
+    ],
+    "certText": "ISO 9001 · ISO 45001 · Helal Sertifikalı",
+    "badge1": "300+ Ürün Çeşidi",
+    "badge2Title": "20+ Yıl",
+    "badge2Sub": "Deneyim",
+    "scrollLabel": "Keşfet"
+  },
+  "stats": {
+    "chip": "Rakamlarla CRK Kimya",
+    "heading": "Güven, Kalite ve Türkiye Geneli Hizmet",
+    "items": [
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Yıllık Tecrübe",
+        "desc": "Sektörde köklü deneyim"
+      },
+      {
+        "value": 1500,
+        "suffix": "+",
+        "label": "Mutlu Müşteri",
+        "desc": "Güvenen iş ortakları"
+      },
+      {
+        "value": 300,
+        "suffix": "+",
+        "label": "Ürün Çeşidi",
+        "desc": "7 kategoride kapsamlı seri"
+      },
+      {
+        "value": 81,
+        "suffix": " İl",
+        "label": "Tüm Türkiye",
+        "desc": "Kesintisiz teslimat ağı"
+      }
+    ]
+  },
+  "about": {
+    "chip": "Hakkımızda",
+    "heading1": "Kimya Sektörünün",
+    "heading2": "Güvenilir Çözüm Ortağı",
+    "body1": "CRK Kimya, 20 yılı aşkın deneyimiyle endüstriyel temizlik, kişisel hijyen, teknik bakım, gıda hijyeni ve havuz kimyasalları alanında Türkiye genelinde hizmet sunan güvenilir bir üretici ve tedarikçidir.",
+    "body2": "7 ana kategoride 300'den fazla ürünlük kapsamlı serimizle otellerde, hastanelerde, fabrikalarda, restoranlarda ve tüm kurumsal işletmelerde hijyen ve temizlik ihtiyaçlarını eksiksiz karşılıyoruz.",
+    "highlights": [
+      "20+ yıllık sektör deneyimi",
+      "ISO 9001:2015 Kalite Yönetim Sistemi",
+      "7 kategoride 300+ ürün portföyü",
+      "Uzman teknik danışmanlık ve saha desteği",
+      "Çevre dostu biyolojik parçalanabilir formüller"
+    ],
+    "imageCaption1": "CRK KİMYA · Global Innovation Center",
+    "imageCaption2": "Endüstriyel Kimya Üretim ve Ar-Ge Merkezi",
+    "statChips": [
+      {
+        "val": "1.500+",
+        "lbl": "Mutlu Müşteri"
+      },
+      {
+        "val": "300+",
+        "lbl": "Ürün Çeşidi"
+      },
+      {
+        "val": "81 İl",
+        "lbl": "Türkiye Geneli"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Misyonumuz",
+        "text": "Ülke kalkınmasına katkı sağlamak, sektörün lider firması olmak ve müşterilerimize en yüksek kalitede çevre dostu kimyasal ürünler sunmak. Üretimden ambalaja kadar her süreçte insan ve çevre sağlığını ön planda tutuyoruz."
+      },
+      {
+        "title": "Vizyonumuz",
+        "text": "Gelecek nesillere daha yeşil bir çevre bırakarak yurt içinde ve dışında tanınan, tercih edilen güvenilir bir kimya firması olmak; sürdürülebilir büyüme ile sektörün lider markası konumuna ulaşmak."
+      },
+      {
+        "title": "Değerlerimiz",
+        "text": "Çevre Sorumluluğu, Müşteri Odaklılık, İnovasyon ve Sürekli İyileşme ilkeleriyle hareket ediyor; müşterilerimize, çalışanlarımıza ve topluma karşı sorumluluğumuzu eksiksiz yerine getiriyoruz."
+      }
+    ]
+  },
+  "services": {
+    "chip": "Hizmetlerimiz",
+    "heading1": "Uçtan Uca",
+    "heading2": "Hizmet Anlayışı",
+    "items": [
+      {
+        "title": "Tedarik Yönetimi",
+        "desc": "Ürettiğimiz kimyasal ürünleri zamanında ve sorunsuz bir şekilde müşterilerimize ulaştırıyoruz. Siparişten teslimata kadar tüm süreci koordineli biçimde takip ediyor, eksiksiz teslimat güvencesi sunuyoruz.",
+        "features": [
+          "Sipariş koordinasyonu",
+          "Zamanında teslimat",
+          "Müşteri bilgilendirmesi"
+        ]
+      },
+      {
+        "title": "Teknik Danışmanlık",
+        "desc": "Uzman kimya mühendislerimizden oluşan ekibimiz, ihtiyacınıza en uygun ürünleri belirlemek, uygulama süreçlerini optimize etmek ve verimliliğinizi artırmak için sahada ve uzaktan destek sunmaktadır.",
+        "features": [
+          "Ürün seçim desteği",
+          "Proses optimizasyonu",
+          "Uzaktan / sahada destek"
+        ]
+      },
+      {
+        "title": "AR-GE ve Formülasyon",
+        "desc": "Müşteri ihtiyaçlarına özel formülasyon çalışmaları gerçekleştiriyor, laboratuvar altyapımızla yeni ürün geliştirme süreçlerini destekliyoruz. Sektörünüze özgü çözümler üretiyoruz.",
+        "features": [
+          "Özel formülasyon",
+          "Pilot üretim",
+          "Laboratuvar test desteği"
+        ]
+      },
+      {
+        "title": "Saha Uygulama Desteği",
+        "desc": "Ürünlerin doğru ve etkin kullanımı için yerinde teknik eğitim ve uygulama desteği sağlıyoruz. Operasyonlarınızın verimliliğini ve hijyen kalitesini artırmak için çalışıyoruz.",
+        "features": [
+          "Yerinde teknik eğitim",
+          "Uygulama protokolü",
+          "Periyodik denetim"
+        ]
+      }
+    ]
+  },
+  "whyCRK": {
+    "chip": "Neden CRK Kimya?",
+    "heading1": "Fark Yaratan",
+    "heading2": "4 Temel Avantaj",
+    "subtext": "CRK Kimya'yı tercih eden şirketler, sadece ürün değil—güven, hız ve uzmanlık da satın almış olur.",
+    "items": [
+      {
+        "title": "Çevre Dostu Yaklaşım",
+        "desc": "Üretimden ambalaja kadar çevreye duyarlı prosesler uyguluyoruz. Biyolojik parçalanabilir formüllerimiz insan ve doğa sağlığını korur."
+      },
+      {
+        "title": "Deneyimli Ekip",
+        "desc": "20+ yıllık sektör deneyimine sahip kimya mühendisleri ve uzman teknisyenlerimiz sahada ve uzaktan teknik destek sağlar."
+      },
+      {
+        "title": "Yenilikçilik ve AR-GE",
+        "desc": "Sürekli gelişen AR-GE altyapımızla sektörün ihtiyaçlarına özel formülasyonlar geliştiriyor, müşterilerimize rekabet avantajı sunuyoruz."
+      },
+      {
+        "title": "Maliyet Avantajı",
+        "desc": "Konsantre formülasyonlarımız ve verimli uygulama protokolleriyle işletme maliyetlerinizi düşürürken hijyen kalitesini en üst düzeyde tutuyoruz."
+      }
+    ]
+  },
+  "quality": {
+    "chip": "Kalite Politikamız",
+    "heading1": "Kalite Bizim",
+    "heading2": "Temel İlkemiz",
+    "body1": "CRK Kimya olarak, tedarik ettiğimiz her ürünün yüksek kalite standartlarını karşılamasını sağlıyoruz. ISO 9001:2015 kalite yönetim sistemimiz çerçevesinde süreçlerimizi sürekli iyileştiriyor, müşteri memnuniyetini en öncelikli hedefimiz olarak benimsiyoruz.",
+    "body2": "Laboratuvar analizlerinden depolama koşullarına, belgelendirmeden teslimat süreçlerine kadar her aşamada kalite güvencesi sunuyoruz.",
+    "certs": [
+      {
+        "label": "ISO 9001:2015",
+        "sub": "Kalite Yönetim Sistemi"
+      },
+      {
+        "label": "ISO 10002:2018",
+        "sub": "Müşteri Memnuniyeti Yönetimi"
+      },
+      {
+        "label": "ISO 45001:2018",
+        "sub": "İş Sağlığı ve Güvenliği"
+      },
+      {
+        "label": "Helal Sertifikası",
+        "sub": "Kişisel ve Yüzey Temizlik Ürünleri"
+      }
+    ],
+    "pillars": [
+      {
+        "label": "Kalite",
+        "desc": "Her süreçte en yüksek standart"
+      },
+      {
+        "label": "Güven",
+        "desc": "Şeffaf ve tutarlı iş anlayışı"
+      },
+      {
+        "label": "Süreklilik",
+        "desc": "Kesintisiz tedarik garantisi"
+      },
+      {
+        "label": "Sürdürülebilirlik",
+        "desc": "Çevre bilinci ile büyüme"
+      }
+    ],
+    "bannerChip": "Araştırma & Geliştirme",
+    "bannerHeading1": "Kimyada Güven,",
+    "bannerHeading2": "Kalitede İstikrar",
+    "bannerBody": "Modern laboratuvar altyapımız ve uzman AR-GE kadromuzla sektörün en yenilikçi kimyasal çözümlerini geliştiriyoruz.",
+    "bannerBtn": "Hakkımızda →"
+  },
+  "cta": {
+    "chip": "Hemen Başlayalım",
+    "heading1": "Kimyasal Çözümleriniz İçin",
+    "heading2": "Güvenilir İş Ortağınız",
+    "body": "İhtiyaçlarınızı bizimle paylaşın. Uzman ekibimiz size özel kimyasal tedarik çözümleri sunsun. İlk görüşme ücretsizdir.",
+    "btn1": "Teklif Al",
+    "btn2": "Hemen Ara",
+    "phone": "+902128538170",
+    "badges": [
+      "ISO 9001:2015",
+      "20+ Yıl Deneyim",
+      "1.500+ Müşteri",
+      "7/24 Destek"
+    ]
+  },
+  "hakkimizda": {
+    "heroChip": "Hakkımızda",
+    "heroHeading1": "Temizlik ve Hijyenin",
+    "heroHeading2": "Güvenilir Üretici ve Tedarikçisi",
+    "heroSubtext": "CRK Kimya, 20+ yıllık deneyimiyle endüstriyel temizlik, hijyen, teknik bakım ve havuz kimyasalları alanında Türkiye genelinde hizmet sunan güvenilir bir üretici ve tedarikçidir.",
+    "storyHeading": "Hikayemiz",
+    "storyParas": [
+      "CRK Kimya, İstanbul merkezli olarak endüstriyel temizlik, kişisel hijyen, teknik bakım, mutfak hijyeni, gıda hijyeni, bakteri ve koku giderme ile havuz kimyasalları alanlarında üretim ve tedarik faaliyetleri yürütmektedir.",
+      "20 yılı aşkın deneyimimizle oteller, hastaneler, fabrikalar, restoranlar, belediyeler ve kurumsal işletmelere 300'den fazla ürünlük kapsamlı serimizle hizmet sunmaktayız.",
+      "AR-GE altyapımız, uzman mühendis kadromuz ve saha uygulama destek ekibimizle müşterilerimizin hijyen ve temizlik standartlarını en üst seviyede tutmalarına yardımcı oluyoruz."
+    ],
+    "storyCaption": "Kimyada Güven, Kalitede İstikrar",
+    "storyChips": [
+      {
+        "value": "ISO 9001",
+        "label": "Kalite Sertifikası"
+      },
+      {
+        "value": "1.500+",
+        "label": "Mutlu Müşteri"
+      },
+      {
+        "value": "300+",
+        "label": "Ürün Çeşidi"
+      }
+    ],
+    "certsHeading": "Sertifika ve Belgelerimiz",
+    "certs": [
+      "ISO 9001:2015",
+      "ISO 10002:2018",
+      "ISO 45001:2018",
+      "Helal Kişisel Temizlik",
+      "Helal Yüzey Temizlik",
+      "GMP Uyumlu",
+      "TSE Onaylı",
+      "Marka Tescil"
+    ],
+    "certsBody": "Tüm ürün ve hizmetlerimiz uluslararası kalite standartlarında test edilmekte ve belgelendirilmektedir. Biyolojik parçalanabilir formüllerimizle çevre dostu üretim gerçekleştiriyoruz.",
+    "pillars": [
+      {
+        "title": "Misyonumuz",
+        "text": "Ülke kalkınmasına katkı sağlamak, sektörün lider firması olmak ve müşterilerimize en yüksek kalitede çevre dostu kimyasal ürünler sunmak. Üretimden ambalaja kadar her süreçte insan ve çevre sağlığını ön planda tutuyoruz."
+      },
+      {
+        "title": "Vizyonumuz",
+        "text": "Gelecek nesillere daha yeşil bir çevre bırakarak yurt içinde ve dışında tanınan, tercih edilen güvenilir bir kimya firması olmak; sürdürülebilir büyüme ile sektörün lider markası konumuna ulaşmak."
+      },
+      {
+        "title": "Değerlerimiz",
+        "text": "Çevre Sorumluluğu, Müşteri Odaklılık, İnovasyon ve Sürekli İyileşme ilkeleriyle hareket ediyor; müşterilerimize, çalışanlarımıza ve topluma karşı sorumluluğumuzu eksiksiz yerine getiriyoruz."
+      }
+    ]
+  }
+}

@@ -10,6 +10,8 @@ const GITHUB_REPO = "crk-kimya";
 const GITHUB_BRANCH = "master";
 const GITHUB_FILE = "content/site-content.json";
 
+const ON_VERCEL = !!process.env.VERCEL;
+
 export async function GET() {
   try {
     if (!existsSync(CONTENT_PATH)) {
@@ -20,6 +22,42 @@ export async function GET() {
     const msg = err instanceof Error ? err.message : String(err);
     console.error("[content GET]", msg);
     return NextResponse.json({ error: msg }, { status: 500 });
+  }
+}
+
+async function saveViaGitHub(json: string) {
+  if (!GITHUB_TOKEN) {
+    throw new Error("GITHUB_TOKEN Vercel ortam değişkenine eklenmemiş. Vercel → Settings → Environment Variables kısmına ekleyin.");
+  }
+
+  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
+  const headers: Record<string, string> = {
+    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    Accept: "application/vnd.github+json",
+    "Content-Type": "application/json",
+  };
+
+  const getRes = await fetch(apiBase, { headers });
+  if (!getRes.ok) {
+    const body = await getRes.text();
+    throw new Error(`GitHub dosyası alınamadı (${getRes.status}): ${body}`);
+  }
+  const { sha } = await getRes.json();
+
+  const putRes = await fetch(apiBase, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify({
+      message: "admin: içerik güncellendi",
+      content: Buffer.from(json).toString("base64"),
+      sha,
+      branch: GITHUB_BRANCH,
+    }),
+  });
+
+  if (!putRes.ok) {
+    const body = await putRes.text();
+    throw new Error(`GitHub güncellenemedi (${putRes.status}): ${body}`);
   }
 }
 
@@ -36,46 +74,15 @@ export async function POST(req: NextRequest) {
 
     const json = JSON.stringify(content, null, 2);
 
-    // Lokal geliştirme ortamında direkt dosyaya yaz
-    if (!GITHUB_TOKEN) {
+    if (ON_VERCEL) {
+      // Vercel: filesystem read-only, GitHub API kullan
+      await saveViaGitHub(json);
+      return NextResponse.json({ ok: true, mode: "github" });
+    } else {
+      // Lokal geliştirme: direkt dosyaya yaz
       writeFileSync(CONTENT_PATH, json, "utf-8");
       return NextResponse.json({ ok: true, mode: "local" });
     }
-
-    // Vercel (üretim) → GitHub API üzerinden güncelle, Vercel redeploy tetikle
-    const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
-    const headers = {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github+json",
-      "Content-Type": "application/json",
-    };
-
-    // Mevcut dosyanın SHA'sını al
-    const getRes = await fetch(apiBase, { headers });
-    if (!getRes.ok) {
-      const body = await getRes.text();
-      throw new Error(`GitHub GET ${getRes.status}: ${body}`);
-    }
-    const { sha } = await getRes.json();
-
-    // Dosyayı güncelle
-    const putRes = await fetch(apiBase, {
-      method: "PUT",
-      headers,
-      body: JSON.stringify({
-        message: "admin: içerik güncellendi",
-        content: Buffer.from(json).toString("base64"),
-        sha,
-        branch: GITHUB_BRANCH,
-      }),
-    });
-
-    if (!putRes.ok) {
-      const body = await putRes.text();
-      throw new Error(`GitHub PUT ${putRes.status}: ${body}`);
-    }
-
-    return NextResponse.json({ ok: true, mode: "github" });
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     console.error("[content POST]", msg);

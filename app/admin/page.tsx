@@ -79,9 +79,14 @@ export default function AdminPage() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Hata");
+      const isGithub = data.mode === "github";
       setStatus("saved");
-      setStatusMsg("Kaydedildi! Site hot-reload ile güncellendi.");
-      setTimeout(() => setStatus("idle"), 3000);
+      setStatusMsg(
+        isGithub
+          ? "GitHub'a kaydedildi! Site 1-2 dk içinde güncellenir."
+          : "Kaydedildi! Site anında güncellendi."
+      );
+      setTimeout(() => setStatus("idle"), isGithub ? 6000 : 3000);
     } catch (err: unknown) {
       setStatus("error");
       setStatusMsg(err instanceof Error ? err.message : "Kayıt başarısız");

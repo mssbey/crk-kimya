@@ -41,15 +41,13 @@ export function StatsSection() {
       ref={ref}
       style={{
         padding: "clamp(3rem, 6vw, 6rem) 0",
-        background: "#F5F7FA",
+        backgroundImage: "url('/Güven, Kalite.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         position: "relative",
         overflow: "hidden",
       }}
     >
-      <div
-        className="animated-grid"
-        style={{ position: "absolute", inset: 0, opacity: 0.6, pointerEvents: "none" }}
-      />
 
       <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
         <motion.div

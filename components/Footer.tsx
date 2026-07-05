@@ -15,10 +15,6 @@ const navLinks = [
 
 const products = [
   "Endüstriyel Kimyasallar",
-  "Petrokimya Ürünleri",
-  "Su Arıtma Kimyasalları",
-  "Gıda Katkıları",
-  "Kozmetik Hammaddeleri",
   "Özel Kimyasal Çözümler",
 ];
 

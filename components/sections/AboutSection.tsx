@@ -152,7 +152,7 @@ export function AboutSection() {
           >
             <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", boxShadow: "0 24px 64px rgba(26,47,143,0.16), 0 4px 16px rgba(0,0,0,0.08)" }}>
               <Image
-                src="/1.png"
+                src="/1 yeni.png"
                 alt="CRK Kimya Üretim Tesisi"
                 width={600}
                 height={400}

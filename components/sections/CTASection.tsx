@@ -19,19 +19,17 @@ export function CTASection() {
         padding: "clamp(4rem, 8vw, 8rem) 0",
         position: "relative",
         overflow: "hidden",
-        background: "linear-gradient(135deg, #0F2060 0%, #1A2F8F 45%, #2957D8 100%)",
+        backgroundImage: "url('/Güven, Kalite.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div
         style={{
           position: "absolute",
           inset: 0,
-          backgroundImage: "url('/1.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          opacity: 0.13,
+          background: "linear-gradient(135deg, rgba(15,32,96,0.88) 0%, rgba(26,47,143,0.82) 45%, rgba(41,87,216,0.78) 100%)",
           pointerEvents: "none",
-          mixBlendMode: "luminosity",
         }}
       />
 

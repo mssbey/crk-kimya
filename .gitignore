@@ -45,6 +45,6 @@ public/4k.mp4
 public/catalog/crk-urun.pdf
 public/catalog/word/
 
-# Temp files
-2.png
-3.png
+# Root-level temp image files (not site assets)
+/2.png
+/3.png

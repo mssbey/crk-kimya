@@ -17,7 +17,7 @@ export default function HakkimizdaPage() {
       <section
         style={{
           padding: "5rem 0 4rem",
-          background: "linear-gradient(180deg, #F0F5FF 0%, #FFFFFF 100%)",
+          background: "linear-gradient(180deg, rgba(255,255,255,0.42) 0%, rgba(255,255,255,0.6) 55%, rgba(255,255,255,0.97) 100%), radial-gradient(ellipse 64% 85% at 50% 42%, rgba(255,255,255,0.93) 0%, rgba(255,255,255,0) 100%), url('/31.png') center 78% / cover no-repeat",
           position: "relative",
           overflow: "hidden",
           borderBottom: "1px solid #E2E8F0",

@@ -59,21 +59,13 @@ export function ProductsSection() {
       ref={ref}
       style={{
         padding: "clamp(3.5rem, 7vw, 7rem) 0",
-        background: "#F5F7FA",
+        backgroundImage: "url('/Güven, Kalite.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         position: "relative",
         overflow: "hidden",
       }}
     >
-      {/* Subtle grid pattern */}
-      <div
-        className="grid-bg"
-        style={{
-          position: "absolute",
-          inset: 0,
-          opacity: 0.7,
-          pointerEvents: "none",
-        }}
-      />
 
       <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
         {/* Header */}

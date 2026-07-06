@@ -42,7 +42,6 @@ next-env.d.ts
 
 # Large media files (host separately - too big for GitHub/Vercel)
 public/4k.mp4
-public/catalog/crk-urun.pdf
 public/catalog/word/
 
 # Root-level temp image files (not site assets)

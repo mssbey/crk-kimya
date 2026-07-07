@@ -12,12 +12,12 @@ const DEFAULT_CATEGORIES = [
   { name: "Teknik Grup", page: 21 },
   { name: "Zemin Cila Grubu", page: 29 },
   { name: "Genel ve Endüstriyel Temizlik", page: 36 },
-  { name: "El Hijyen Grubu", page: 42 },
-  { name: "Bulaşık Yıkama", page: 48 },
-  { name: "Dezenfektan ve Antiseptikler", page: 53 },
-  { name: "Mekan Parfümleri", page: 58 },
-  { name: "Çamaşır Yıkama", page: 63 },
-  { name: "Oto Grubu", page: 67 },
+  { name: "El Hijyen Grubu", page: 41 },
+  { name: "Bulaşık Yıkama", page: 47 },
+  { name: "Dezenfektan ve Antiseptikler", page: 52 },
+  { name: "Mekan Parfümleri", page: 57 },
+  { name: "Çamaşır Yıkama", page: 62 },
+  { name: "Oto Grubu", page: 66 },
 ];
 
 export interface CatalogCategory { name: string; page: number; }

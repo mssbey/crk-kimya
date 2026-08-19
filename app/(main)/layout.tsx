@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MouseGlow } from "@/components/MouseGlow";
+import { FloatingContact } from "@/components/FloatingContact";
 
 export default function MainLayout({
   children,
@@ -17,6 +18,7 @@ export default function MainLayout({
       <Header />
       <main>{children}</main>
       <Footer />
+      <FloatingContact />
     </>
   );
 }

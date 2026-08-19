@@ -37,8 +37,8 @@ const products = [
   {
     icon: ShieldCheck,
     title: "Gıda Hijyeni",
-    desc: "HACCP uyumlu klor bazlı, köpüklü ve alkalin ürünlerle gıda tesislerinde tam hijyen güvencesi.",
-    items: ["HACCP Uyumlu", "Klor Bazlı", "Köpüklü Sistem", "Alkalin Temizleyici"],
+    desc: "Klor bazlı, köpüklü ve alkalin ürünlerle gıda tesislerinde tam hijyen güvencesi.",
+    items: ["Klor Bazlı", "Köpüklü Sistem", "Alkalin Temizleyici", "Gıda Güvenli"],
     accent: "#2957D8",
   },
   {

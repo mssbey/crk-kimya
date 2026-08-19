@@ -377,13 +377,13 @@ export default function IletisimPage() {
                 {
                   icon: Phone,
                   title: "Telefon",
-                  content: "+90 212 853 81 70",
+                  content: "0549 900 98 91",
                   color: "#2957D8",
                 },
                 {
                   icon: Mail,
                   title: "E-Posta",
-                  content: "info@crkkimya.com.tr\nsatis@crkkimya.com.tr",
+                  content: "info@crkkimya.com.tr",
                   color: "#0F2060",
                 },
                 {
@@ -466,7 +466,7 @@ export default function IletisimPage() {
                 }}
               >
                 <iframe
-                  src="https://maps.google.com/maps?q=41.0334,28.6685&t=m&z=15&output=embed&iwloc=near"
+                  src="https://maps.google.com/maps?q=41.0537279,28.6491423&t=m&z=16&output=embed&iwloc=near"
                   width="100%"
                   height="100%"
                   style={{ border: 0, display: "block" }}
